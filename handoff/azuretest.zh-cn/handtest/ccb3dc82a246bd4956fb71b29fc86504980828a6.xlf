@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-us" target-language="handtest-oldev" original="markdown" tool-id="caps" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="caps" tool-name="CAPS" tool-version="2.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group extype="metadata">
+        <group id="1">
+          <trans-unit id="1" translate="yes" xml:space="preserve">
+            <source>testmdarticle</source>
+            <target state="new">testmdarticle</target>
+            <context-group>
+              <context context-type="x-metadataname">name</context>
+            </context-group>
+          </trans-unit>
+        </group>
+      </group>
+      <group extype="content">
+        <group id="2">
+          <trans-unit id="2" translate="yes" xml:space="preserve">
+            <source>&lt;properties
+   pageTitle="Azure Resource Manager Advanced Template Operations"
+   description="Describes how to use nested templates and the copy operation in an Azure Resource Manager template when deploying apps to Azure."</source>
+            <target state="new">&lt;properties
+   pageTitle="Azure Resource Manager Advanced Template Operations"
+   description="Describes how to use nested templates and the copy operation in an Azure Resource Manager template when deploying apps to Azure."</target>
+          </trans-unit>
+          <trans-unit id="3" translate="yes" xml:space="preserve">
+            <source>services="na"
+   documentationCenter="na"
+   authors="tfitzmac"
+   manager="wpickett"
+   editor=""/&gt;</source>
+            <target state="new">services="na"
+   documentationCenter="na"
+   authors="tfitzmac"
+   manager="wpickett"
+   editor=""/&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="3">
+          <trans-unit id="4" translate="yes" xml:space="preserve">
+            <source>&lt;tags
+   ms.service="na"
+   ms.devlang="na"
+   ms.topic="article"
+   ms.tgt_pltfrm="AzurePortal"
+   ms.workload="na"
+   ms.date="06/29/2015"
+   ms.author="tomfitz"/&gt;</source>
+            <target state="new">&lt;tags
+   ms.service="na"
+   ms.devlang="na"
+   ms.topic="article"
+   ms.tgt_pltfrm="AzurePortal"
+   ms.workload="na"
+   ms.date="06/29/2015"
+   ms.author="tomfitz"/&gt;</target>
+          </trans-unit>
+        </group>
+        <group id="4">
+          <trans-unit id="5" translate="yes" xml:space="preserve">
+            <source>Advanced Template Operations</source>
+            <target state="new">Advanced Template Operations</target>
+          </trans-unit>
+        </group>
+        <group id="5">
+          <trans-unit id="6" translate="yes" xml:space="preserve">
+            <source>This topic describes the copy operation and nested templates which you can use to perform more advanced tasks when deploying resources to Azure.</source>
+            <target state="new">This topic describes the copy operation and nested templates which you can use to perform more advanced tasks when deploying resources to Azure.</target>
+          </trans-unit>
+        </group>
+        <group id="6">
+          <trans-unit id="7" translate="yes" xml:space="preserve">
+            <source>copy</source>
+            <target state="new">copy</target>
+          </trans-unit>
+        </group>
+        <group id="7">
+          <trans-unit id="8" translate="yes" xml:space="preserve">
+            <source>Enables you to iterate a specified number of times when deploying a resource.</source>
+            <target state="new">Enables you to iterate a specified number of times when deploying a resource.</target>
+          </trans-unit>
+        </group>
+        <group id="8">
+          <trans-unit id="9" translate="yes" xml:space="preserve">
+            <source>The copy operation is particularly helpful when working with arrays because you can iterate through each element in the array.</source>
+            <target state="new">The copy operation is particularly helpful when working with arrays because you can iterate through each element in the array.</target>
+          </trans-unit>
+        </group>
+        <group id="9">
+          <trans-unit id="10" translate="yes" xml:space="preserve">
+            <source>The </source>
+            <target state="new">The </target>
+          </trans-unit>
+        </group>
+        <group id="10">
+          <trans-unit id="11" translate="yes" xml:space="preserve">
+            <source>copyIndex()</source>
+            <target state="new">copyIndex()</target>
+          </trans-unit>
+        </group>
+        <group id="11">
+          <trans-unit id="12" translate="yes" xml:space="preserve">
+            <source> function returns the current value for the iteration.</source>
+            <target state="new"> function returns the current value for the iteration.</target>
+          </trans-unit>
+        </group>
+        <group id="12">
+          <trans-unit id="13" translate="yes" xml:space="preserve">
+            <source>You can deploy three web sites named:</source>
+            <target state="new">You can deploy three web sites named:</target>
+          </trans-unit>
+        </group>
+        <group id="13">
+          <trans-unit id="14" translate="yes" xml:space="preserve">
+            <source>examplecopy-Contoso</source>
+            <target state="new">examplecopy-Contoso</target>
+          </trans-unit>
+        </group>
+        <group id="14">
+          <trans-unit id="15" translate="yes" xml:space="preserve">
+            <source>examplecopy-Fabrikam</source>
+            <target state="new">examplecopy-Fabrikam</target>
+          </trans-unit>
+        </group>
+        <group id="15">
+          <trans-unit id="16" translate="yes" xml:space="preserve">
+            <source>examplecopy-Coho</source>
+            <target state="new">examplecopy-Coho</target>
+          </trans-unit>
+        </group>
+        <group id="16">
+          <trans-unit id="17" translate="yes" xml:space="preserve">
+            <source>with the following template.</source>
+            <target state="new">with the following template.</target>
+          </trans-unit>
+        </group>
+        <group id="17">
+          <trans-unit id="18" translate="yes" xml:space="preserve">
+            <source>You can also use the copy operation without an array.</source>
+            <target state="new">You can also use the copy operation without an array.</target>
+          </trans-unit>
+        </group>
+        <group id="18">
+          <trans-unit id="19" translate="yes" xml:space="preserve">
+            <source>For example, you might want to add an incrementing number to the end of each resource name that is deployed.</source>
+            <target state="new">For example, you might want to add an incrementing number to the end of each resource name that is deployed.</target>
+          </trans-unit>
+        </group>
+        <group id="19">
+          <trans-unit id="20" translate="yes" xml:space="preserve">
+            <source>You can deploys three web sites named:</source>
+            <target state="new">You can deploys three web sites named:</target>
+          </trans-unit>
+        </group>
+        <group id="20">
+          <trans-unit id="21" translate="yes" xml:space="preserve">
+            <source>examplecopy-0</source>
+            <target state="new">examplecopy-0</target>
+          </trans-unit>
+        </group>
+        <group id="21">
+          <trans-unit id="22" translate="yes" xml:space="preserve">
+            <source>examplecopy-1</source>
+            <target state="new">examplecopy-1</target>
+          </trans-unit>
+        </group>
+        <group id="22">
+          <trans-unit id="23" translate="yes" xml:space="preserve">
+            <source>examplecopy-2.</source>
+            <target state="new">examplecopy-2.</target>
+          </trans-unit>
+        </group>
+        <group id="23">
+          <trans-unit id="24" translate="yes" xml:space="preserve">
+            <source>with the following template.</source>
+            <target state="new">with the following template.</target>
+          </trans-unit>
+        </group>
+        <group id="24">
+          <trans-unit id="25" translate="yes" xml:space="preserve">
+            <source>You'll notice in the previous example that the index value goes from zero to 2.</source>
+            <target state="new">You'll notice in the previous example that the index value goes from zero to 2.</target>
+          </trans-unit>
+        </group>
+        <group id="25">
+          <trans-unit id="26" translate="yes" xml:space="preserve">
+            <source>To offset the index value, you can pass a value in the </source>
+            <target state="new">To offset the index value, you can pass a value in the </target>
+          </trans-unit>
+        </group>
+        <group id="26">
+          <trans-unit id="27" translate="yes" xml:space="preserve">
+            <source>copyIndex()</source>
+            <target state="new">copyIndex()</target>
+          </trans-unit>
+        </group>
+        <group id="27">
+          <trans-unit id="28" translate="yes" xml:space="preserve">
+            <source> function, such as </source>
+            <target state="new"> function, such as </target>
+          </trans-unit>
+        </group>
+        <group id="28">
+          <trans-unit id="29" translate="yes" xml:space="preserve">
+            <source>copyIndex(1)</source>
+            <target state="new">copyIndex(1)</target>
+          </trans-unit>
+        </group>
+        <group id="29">
+          <trans-unit id="30" translate="yes" xml:space="preserve">
+            <source>.</source>
+            <target state="new">.</target>
+          </trans-unit>
+        </group>
+        <group id="30">
+          <trans-unit id="31" translate="yes" xml:space="preserve">
+            <source>The number of iterations to perform is still specified in the copy element, but the value of copyIndex is offset by the specified value.</source>
+            <target state="new">The number of iterations to perform is still specified in the copy element, but the value of copyIndex is offset by the specified value.</target>
+          </trans-unit>
+        </group>
+        <group id="31">
+          <trans-unit id="32" translate="yes" xml:space="preserve">
+            <source>So, using the same template as the previous example, but specifying </source>
+            <target state="new">So, using the same template as the previous example, but specifying </target>
+          </trans-unit>
+        </group>
+        <group id="32">
+          <trans-unit id="33" translate="yes" xml:space="preserve">
+            <source>copyIndex(1)</source>
+            <target state="new">copyIndex(1)</target>
+          </trans-unit>
+        </group>
+        <group id="33">
+          <trans-unit id="34" translate="yes" xml:space="preserve">
+            <source> would deploy three web sites named:</source>
+            <target state="new"> would deploy three web sites named:</target>
+          </trans-unit>
+        </group>
+        <group id="34">
+          <trans-unit id="35" translate="yes" xml:space="preserve">
+            <source>examplecopy-1</source>
+            <target state="new">examplecopy-1</target>
+          </trans-unit>
+        </group>
+        <group id="35">
+          <trans-unit id="36" translate="yes" xml:space="preserve">
+            <source>examplecopy-2</source>
+            <target state="new">examplecopy-2</target>
+          </trans-unit>
+        </group>
+        <group id="36">
+          <trans-unit id="37" translate="yes" xml:space="preserve">
+            <source>examplecopy-3</source>
+            <target state="new">examplecopy-3</target>
+          </trans-unit>
+        </group>
+        <group id="37">
+          <trans-unit id="38" translate="yes" xml:space="preserve">
+            <source>Nested template</source>
+            <target state="new">Nested template</target>
+          </trans-unit>
+        </group>
+        <group id="38">
+          <trans-unit id="39" translate="yes" xml:space="preserve">
+            <source>You may need to merge two templates together, or launch a child template from a parent.</source>
+            <target state="new">You may need to merge two templates together, or launch a child template from a parent.</target>
+          </trans-unit>
+        </group>
+        <group id="39">
+          <trans-unit id="40" translate="yes" xml:space="preserve">
+            <source>You can accomplish this through the use of a deployment resource within the master template that points to the nested template.</source>
+            <target state="new">You can accomplish this through the use of a deployment resource within the master template that points to the nested template.</target>
+          </trans-unit>
+        </group>
+        <group id="40">
+          <trans-unit id="41" translate="yes" xml:space="preserve">
+            <source>You set the </source>
+            <target state="new">You set the </target>
+          </trans-unit>
+        </group>
+        <group id="41">
+          <trans-unit id="42" translate="yes" xml:space="preserve">
+            <source>templateLink</source>
+            <target state="new">templateLink</target>
+          </trans-unit>
+        </group>
+        <group id="42">
+          <trans-unit id="43" translate="yes" xml:space="preserve">
+            <source> property to the URI of the nested template.</source>
+            <target state="new"> property to the URI of the nested template.</target>
+          </trans-unit>
+        </group>
+        <group id="43">
+          <trans-unit id="44" translate="yes" xml:space="preserve">
+            <source>You can provide parameter values for the nested template either by specifying the values directly in your template or by linking to a parameter file.</source>
+            <target state="new">You can provide parameter values for the nested template either by specifying the values directly in your template or by linking to a parameter file.</target>
+          </trans-unit>
+        </group>
+        <group id="44">
+          <trans-unit id="45" translate="yes" xml:space="preserve">
+            <source>The first example uses the </source>
+            <target state="new">The first example uses the </target>
+          </trans-unit>
+        </group>
+        <group id="45">
+          <trans-unit id="46" translate="yes" xml:space="preserve">
+            <source>parameters</source>
+            <target state="new">parameters</target>
+          </trans-unit>
+        </group>
+        <group id="46">
+          <trans-unit id="47" translate="yes" xml:space="preserve">
+            <source> property to specify a paramter value directly.</source>
+            <target state="new"> property to specify a paramter value directly.</target>
+          </trans-unit>
+        </group>
+        <group id="47">
+          <trans-unit id="48" translate="yes" xml:space="preserve">
+            <source>The next example uses the </source>
+            <target state="new">The next example uses the </target>
+          </trans-unit>
+        </group>
+        <group id="48">
+          <trans-unit id="49" translate="yes" xml:space="preserve">
+            <source>parametersLink</source>
+            <target state="new">parametersLink</target>
+          </trans-unit>
+        </group>
+        <group id="49">
+          <trans-unit id="50" translate="yes" xml:space="preserve">
+            <source> property to link to a parameter file.</source>
+            <target state="new"> property to link to a parameter file.</target>
+          </trans-unit>
+        </group>
+        <group id="50">
+          <trans-unit id="51" translate="yes" xml:space="preserve">
+            <source>Next Steps</source>
+            <target state="new">Next Steps</target>
+          </trans-unit>
+        </group>
+        <group id="51">
+          <trans-unit id="52" translate="yes" xml:space="preserve">
+            <source>Authoring Azure Resource Manager Templates</source>
+            <target state="new">Authoring Azure Resource Manager Templates</target>
+          </trans-unit>
+        </group>
+        <group id="52">
+          <trans-unit id="53" translate="yes" xml:space="preserve">
+            <source>Azure Resource Manager Template Functions</source>
+            <target state="new">Azure Resource Manager Template Functions</target>
+          </trans-unit>
+        </group>
+        <group id="53">
+          <trans-unit id="54" translate="yes" xml:space="preserve">
+            <source>Deploy an application with Azure Resource Manager Template</source>
+            <target state="new">Deploy an application with Azure Resource Manager Template</target>
+          </trans-unit>
+        </group>
+        <group id="54">
+          <trans-unit id="55" translate="yes" xml:space="preserve">
+            <source>Azure Resource Manager Overview</source>
+            <target state="new">Azure Resource Manager Overview</target>
+          </trans-unit>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>
